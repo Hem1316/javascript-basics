@@ -1,6 +1,6 @@
 # 🧠 Learn JavaScript Basics - For Beginners
 
-Welcome! This repo is made specially for Beginners or any beginner who wants to start learning JavaScript step-by-step.
+Welcome! This repo is made specially for Beginners or anyone who wants to start learning JavaScript step-by-step.
 
 > No complicated words. Just pure JavaScript magic. ✨
 
