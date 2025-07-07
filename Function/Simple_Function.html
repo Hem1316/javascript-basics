@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <h1>JavaScript Basic Function</h1>
+    <p id="demo"></p>
+<script>
+    function Simple(){  
+        let name = "Hemachandiran";
+        let age ="21";
+        return name+" "+age ;
+    }
+    console.log(Simple());
+
+    function add(){
+        const a =10; b = 20 ; c = 30; d = a+b+c;
+        return d ;
+    }
+    console.log(add());
+
+    function student(){
+        const fname = "hem"; lname = "chandran"
+        return fname + lname ;
+
+    }
+    console.log(student());
+
+    function sub(){
+        let a =15; b =20;
+        return b-a;
+    }
+    console.log(sub());
+
+    function multiply(){
+        let x = 6; y = 5;
+        return x * y ;
+    }
+    console.log("mutilply 6*5 is"+ " "+multiply());
+
+    function test(){
+        console.log("My Name is Hemachandiran.B");
+    }
+    test();
+
+       function welcome(){
+        alert("welocme to js");
+    }
+    welcome();
+
+        document.getElementById('demo').innerHTML =Simple()+"</br>"+add()+"</br>"+student()+"</br>"+"sub of 20 -15 is"+" "+sub()+"</br>"+"multiple of 6*5 is"+" "+multiply();
+        
+     
+
+</script>
+</body>
+</html>

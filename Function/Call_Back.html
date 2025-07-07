@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Java Script Call_Back Function</h1>
+
+    <script>
+        function greet(name,callback){
+            console.log("Hello"+" "+ name+".");
+            callback()
+        }
+        function wish(){
+            console.log("Good Morning!");
+        }
+        greet("Hemachandiran",wish);
+
+           function student(name,callback){
+               console.log("Hi"+""+name+".");
+               callback()
+         }
+
+         function teacher(){
+            console.log("What is your Mark?");
+         }
+         student("Hem",teacher)
+
+         function person(name,callback){
+            console.log("I'm"+" "+name+" " +"From")
+            callback()
+         }
+         function place(){
+            console.log("Vellore");
+         }
+         function place1(){
+            console.log("Arcot");
+         }
+           function place2(){
+            console.log("Ranipet");
+         }
+         person("HEM",place1);
+         person("ABI",place);
+         person("BHUVI",place2);
+
+         function bank(name,callback){
+              console.log(name);
+              callback()
+         }
+         function sbi(){
+            console.log("Your SBI Balance is 300")
+         }
+         function indian(){
+            console.log("Your INDIAN Balance is 500")
+         }
+         function canara(){
+            console.log("Your CANARA Balance is 700")
+         }
+         bank("HEM",sbi);
+         bank("HEM",indian);
+         bank("HEM",canara);
+         bank("Pradhap",indian);
+         bank("Mani",sbi);
+
+         function grade(name,callback){
+            console.log(name+" "+"your Passed in");
+            callback()
+         } 
+         function total1(){
+               console.log("First class .");
+         }
+         function total2(){
+            console.log("Second class .");
+         }
+         function total3(){
+            console.log("Third class .");
+         }
+
+         grade("HEM",total3);
+         grade("BALA",total1);
+         grade("Gopla",total2);
+
+    </script>
+
+ 
+</body>
+</html>
